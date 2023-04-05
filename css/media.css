@@ -1,4 +1,44 @@
-@media (max-width: 320px) {
+@media (max-width: 319px) {
+
+    header {
+        height: 25vh;
+        margin-left: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        
+        
+    }
+
+    .main__one {
+        width: 100vw;
+        height: 56vh;    
+                
+    }
+
+    .block {
+        width: 39vw;
+        height: 25vh;
+        
+    }
+
+    .main__one :first-child {
+        width: 100vw;
+        height: 25vh;
+    }
+
+   .main__two {
+    margin-left: 0px;
+    width: 100vw;
+    height: 25vh;
+
+   }
+}
+
+@media (max-height: 320px) and (orientation: landscape) {
 
     header {
         height: 25vh;
@@ -13,7 +53,7 @@
 
     .main__one {
         width: 100vw;
-        height: 84vh;    
+        height: 94vh;    
                 
     }
 
@@ -33,5 +73,5 @@
     height: 25vh;
 
    }
-}
 
+}
