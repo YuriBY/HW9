@@ -1,42 +1,37 @@
 @media (max-width: 320px) {
 
-    .phone {
-
-        display: flex;
-        flex-direction: column;
-        width: 320px;
-        height: 640px;
-        margin: 5px;
+    header {
+        height: 25vh;
     }
 
     main {
-
         display: flex;
         flex-direction: column;
-        margin: 0;
-
-    }
-
-    .main {
-        width: 100vw;
-        height: 50vw;
+        
         
     }
 
-
-    header {
-      
+    .main__one {
         width: 100vw;
-        height: 20vh;
-        margin: 5px;
+        height: 84vh;    
+                
+    }
+
+    .block {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .main__one :first-child {
+        width: 100vw;
+        height: 25vh;
     }
 
    .main__two {
-      
-        width: 100vw;
-        height: 70vh;
-        margin: 5px;
-    }
+    margin-left: 0px;
+    width: 100vw;
+    height: 25vh;
 
+   }
 }
 
