@@ -19,25 +19,25 @@ main {
     margin: 20px;
 }
 
-.main {
-    width: 60vw;
-    height: 36vw;
+
+.main__one {
+    width: 58vw;
+    height: 60vh;    
+    color: white;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main__one :first-child {
+    width: 97%;
+    height: 45%;
+        
 }
 
 .main__two {
-    width: 58vw;
-    height: 30vh;    
-    background-color: red;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.five {
     width: 33vw;
     height: 31vw;
     background-color: red;
@@ -49,17 +49,13 @@ main {
 
 }
 
-.main__other {
-    display: flex;
-    flex-wrap: wrap;
-   
-}
 
 .block { 
     width: 47%;
-    height: 15vw;
+    height: 44%;
     background-color: red;
     margin-right: 20px;
+    margin-bottom: 20px;
     color: white;
     display: flex;
     align-items: center;

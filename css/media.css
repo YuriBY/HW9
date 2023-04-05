@@ -1,9 +1,42 @@
-/* @media (max-width: 320px) {
-    header, .main__two {
+@media (max-width: 320px) {
+
+    .phone {
+
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 640px;
+        margin: 5px;
+    }
+
+    main {
+
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .main {
+        width: 100vw;
+        height: 50vw;
+        
+    }
+
+
+    header {
       
         width: 100vw;
-        height: 250px;
+        height: 20vh;
+        margin: 5px;
+    }
+
+   .main__two {
+      
+        width: 100vw;
+        height: 70vh;
+        margin: 5px;
     }
 
 }
- */
+
