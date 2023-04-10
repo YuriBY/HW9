@@ -76,7 +76,58 @@
 
 }
 
-@media (min-width: 321px) and (max-width: 1148px) {
+@media (min-width: 321px) and (max-width: 460px) {
+
+    header {
+        height: 25vh;
+        margin-left: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+      
+        
+    }
+
+    .main__one {
+        width: 94vw;
+        height: 56vh; 
+        display: flex;  
+        flex-wrap: wrap;            
+    }
+
+    .main__one :first-child {
+        width: 27vw;
+        height: 25vh;
+            
+    }
+
+    .block {
+        width: 27vw;
+        height: 25vh;
+        
+    }
+
+    .main__one :nth-child(3) {
+        width: 100vw;
+        height: 25vh;
+        margin-right: 0;
+            
+    }
+
+    .main__two {
+    margin-left: 0px;
+    width: 94vw;
+    height: 25vh;
+
+   }
+}
+    
+
+
+@media (min-width: 461px) and (max-width: 1148px) {
 
     header {
         height: 25vh;
